@@ -1,1 +1,13 @@
+Useful bits of code: 
 
+Strings	se	String.Empty
+Strings	stf	String.Format
+Strings	stp	String.Format with paste
+
+public class Employee {
+    public string Name {get; set;}
+    public DateTime StartDate {get; set;}
+}
+
+//Create an employlee by using the initializer
+Employee emp = new Employee {Name="John Smith", StartDate=DateTime.Now()};
