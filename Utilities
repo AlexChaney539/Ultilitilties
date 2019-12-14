@@ -4,3 +4,8 @@ tryParse
 .ToString
 if , else
 try , catch
+
+
+Serialize : helps keep permanent data
+
+ if (OVRInput.Get(OVRInput.Button.Two)) : This is the key mapped to the oculus to pause the game
